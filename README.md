@@ -1,1 +1,22 @@
-ts a basic face recognizer application which can identify the face(s) of the person(s) showing on a web cam. The FaceNet model takes a lot of data and a long time to train. So following common practice in applied deep learning settings, let's just load weights that someone else has already trained. 
+                                                              **** Face Recognition Using FaceNet****
+                                                                
+This repository implements a face recognition system using the FaceNet model, leveraging pre-trained weights for efficient facial embeddings generation. It combines face recognition with liveness detection, suitable for real-time applications such as access control and security systems.
+
+**Features**
+Pre-Trained Model: Uses a pre-trained FaceNet model to avoid computationally expensive training from scratch.
+Face Embeddings: Converts facial images into embeddings to compare and identify individuals.
+Real-Time Recognition: Implements live face recognition using a webcam feed.
+Face Detection: Employs Haar Cascade for face detection in images and videos.
+Extensibility: The modular design allows easy addition of new faces to the database.
+
+**Setup and Dependencies**
+
+Prerequisites
+Python 3.7 or above
+The following Python libraries:
+tensorflow
+keras
+numpy
+opencv-python
+matplotlib
+pandas
