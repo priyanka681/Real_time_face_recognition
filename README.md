@@ -1,6 +1,6 @@
-                                                              **** Face Recognition Using FaceNet****
+                                                              **Face Recognition Using FaceNet**
                                                                 
-This repository implements a face recognition system using the FaceNet model, leveraging pre-trained weights for efficient facial embeddings generation. It combines face recognition with liveness detection, suitable for real-time applications such as access control and security systems.
+This repository implements a face recognition system using the FaceNet model, leveraging pre-trained weights for efficient facial embedding generation. It combines face recognition with liveness detection, suitable for real-time applications such as access control and security systems.
 
 **Features**
 Pre-Trained Model: Uses a pre-trained FaceNet model to avoid computationally expensive training from scratch.
@@ -14,9 +14,9 @@ Extensibility: The modular design allows easy addition of new faces to the datab
 Prerequisites
 Python 3.7 or above
 The following Python libraries:
-tensorflow
-keras
-numpy
-opencv-python
-matplotlib
-pandas
+1. tensorflow2.
+2. keras
+3. numpy
+4. opencv-python
+5. matplotlib
+6. pandas
